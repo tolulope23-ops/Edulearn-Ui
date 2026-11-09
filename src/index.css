@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* EduLearn design system */
+@theme {
+  /* Brand */
+  --color-primary: #194dcc;
+  --color-primary-hover: #123eae;
+  --color-primary-light: #eaf0ff;
+
+  /* Text */
+  --color-heading: #192438;
+  --color-body: #64748b;
+  --color-muted: #94a3b8;
+
+  /* Backgrounds */
+  --color-page: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-muted: #eff4fa;
+
+  /* Course colours */
+  --color-mathematics: #b2c8fa;
+  --color-science: #91eab2;
+  --color-english: #ffd0d0;
+  --color-ict: #ffdda0;
+
+  /* Typography */
+  --font-sans: "Inter", sans-serif;
+
+  /* Radius */
+  --radius-card: 0.875rem;
+  --radius-button: 0.625rem;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background-color: var(--color-page);
+    color: var(--color-heading);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
