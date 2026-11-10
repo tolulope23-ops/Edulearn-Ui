@@ -20,7 +20,7 @@ function Header() {
         </a>
 
         {/* Authentication action */}
-        <a href="/login"
+        <a href="/signin"
             className="rounded-full bg-primary-light px-6 py-2 text-sm font-semibold text-primary transition-colors hover:bg-blue-100">
             Sign in
         </a>
