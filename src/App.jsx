@@ -10,6 +10,7 @@ import HeroSection from "./features/landing/HeroSection";
 import TestimonialSection from "./features/landing/TestimonialSection";
 
 import RegisterPage from "./features/auth/RegisterPage";
+import SignInPage from "./features/auth/SignInPage";
 
 // Landing Page
 function LandingPage() {
@@ -36,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/signin" element={<SignInPage />} />
       </Routes>
     </BrowserRouter>
   );
